@@ -1,0 +1,65 @@
+[
+  {
+    "id": 1,
+    "name": "Advanced Urology Center",
+    "price": 2000,
+    "description": "A super specialty center of Patient Care Hospitals. SAUC is committed to provide world class comprehensive urology service with latest technology & skills.",
+    "img": "https://image.freepik.com/free-vector/kidney-logo-urology-logo_412311-3721.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Burn & Plastic Surgery Centre",
+    "price": 4000,
+    "description": "Plastic surgery is a greatly misunderstood specialty all over the world and not just in our country.",
+    "img": "https://image.freepik.com/free-vector/surgeon-hands-with-woman-plastic-surgery-process_24877-54570.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Child Development Centre",
+    "price": 2500,
+    "description": "Our motto is to prevent disability, optimize development and improve quality of survival of all children in Bangladesh.",
+    "img": "https://image.freepik.com/free-photo/naked-cute-smiling-baby-cap-pilot-is-flying_88135-1003.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Children Kidney & Dialysis",
+    "price": 1000,
+    "description": "With the aim “Little kidney, we care” PCHL Children Kidney and Dialysis Centre offers comprehensive care for children with kidney disease and urinary tract problems. ",
+    "img": "https://image.freepik.com/free-vector/kidney-logo-urology-logo_412311-3707.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Dental Care",
+    "price": 1750,
+    "description": "Scaling, Pliolishing, Curettage, Root Planning, Filling, Root Canal Treatment, Crown and Bridge lirosthesis, Denture lirosthesis.",
+    "img": "https://image.freepik.com/free-vector/dental-care-concept-illustration_52683-66519.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Diabetes & Endocrinology Centre",
+    "price": 3250,
+    "description": "Hyperthyroidism, Hypothyroidism, Goiter, Thyroid nodule, Thyroid cancer.",
+    "img": "https://image.freepik.com/free-vector/diabetes-elements-collection_1212-405.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Intensive Care Centre",
+    "price": 3250,
+    "description": "The ICU is concerned with the provision of life support or organ support system in patient who critically ill and who usually require intensive monitoring in a highly vigilant environment.",
+    "img": "https://image.freepik.com/free-photo/hospital-ward-with-empty-bed-clinical-facility_482257-7610.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Orthopedics & Trauma Centre",
+    "price": 3250,
+    "description": "Patient Care Orthopedics & Trauma Centre is enriched to handle our orthopedic patients to a new standard. ",
+    "img": "https://image.freepik.com/free-vector/sad-happy-woman-with-broken-arm_131590-437.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Radiology & Imaging Centre",
+    "price": 3250,
+    "description": "Patient Care Radiology Centre is fully equipped with a comprehensive Modern Radiology and Digital Imaging facilities.",
+    "img": "https://image.freepik.com/free-vector/radiography-concept-illustration_114360-3527.jpg"
+  }
+]
