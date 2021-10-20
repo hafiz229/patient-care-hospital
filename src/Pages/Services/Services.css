@@ -1,0 +1,13 @@
+.service-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 30px;
+  padding: 10px;
+}
+
+/* Responsive for small to medium screens */
+@media only screen and (max-width: 991px) {
+  .service-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

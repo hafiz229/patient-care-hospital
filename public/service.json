@@ -40,26 +40,5 @@
     "price": 3250,
     "description": "Our physicians  treat the following conditions: Hyperthyroidism, Hypothyroidism, Goiter, Thyroid nodule, Thyroid cancer.",
     "img": "https://image.freepik.com/free-vector/diabetes-elements-collection_1212-405.jpg"
-  },
-  {
-    "id": 7,
-    "name": "Intensive Care Centre",
-    "price": 3250,
-    "description": "The ICU is concerned with the provision of life support or organ support system in patient who critically ill.",
-    "img": "https://image.freepik.com/free-photo/hospital-ward-with-empty-bed-clinical-facility_482257-7610.jpg"
-  },
-  {
-    "id": 8,
-    "name": "Orthopedics & Trauma Centre",
-    "price": 3250,
-    "description": "Patient Care Orthopedics & Trauma Centre is enriched to handle our orthopedic patients to a new standard. ",
-    "img": "https://image.freepik.com/free-vector/sad-happy-woman-with-broken-arm_131590-437.jpg"
-  },
-  {
-    "id": 9,
-    "name": "Radiology & Imaging Centre",
-    "price": 3250,
-    "description": "Patient Care Radiology Centre is fully equipped with a comprehensive Modern Radiology and Digital Imaging facilities.",
-    "img": "https://image.freepik.com/free-vector/radiography-concept-illustration_114360-3527.jpg"
   }
 ]
