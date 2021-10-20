@@ -1,9 +1,11 @@
 import React from "react";
-import { Container, Nav, Navbar } from "react-bootstrap";
+import { Container, Nav, Navbar, Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
+import useAuth from "../../hooks/useAuth";
 
 const Header = () => {
+  const { user, logOut } = useAuth();
   return (
     <>
       <Navbar
@@ -36,12 +38,16 @@ const Header = () => {
           </Nav>
           <Navbar.Toggle />
           <Navbar.Collapse className="justify-content-end">
-            <Nav.Link as={Link} to="/login">
-              Login
-            </Nav.Link>
-            <Navbar.Text>
-              <a href="#login">Mark Otto</a>
-            </Navbar.Text>
+            {user?.email ? (
+              <Button onClick={logOut} variant="dark" class>
+                Logout
+              </Button>
+            ) : (
+              <Nav.Link as={Link} to="/login">
+                Login
+              </Nav.Link>
+            )}
+            <Navbar.Text>{user?.displayName}</Navbar.Text>
           </Navbar.Collapse>
         </Container>
       </Navbar>
