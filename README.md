@@ -1,10 +1,22 @@
-# Getting Started with Create React App
+# Website Name
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Patient Care Hospital
 
-## Available Scripts
+## Description
 
-In the project directory, you can run:
+Patient Care Hospital is a private hospital in Dhaka, Bangladesh. It is one of three high-end private hospital in Bangladesh, the other being Apollo Hospital Dhaka and United Hospital, Dhaka. Tapan Chowdhury is the Managing Director of the hospital.
+
+### Live Site Link
+
+https://patient-care-hospital-56ccb.firebaseapp.com
+
+### Key Features
+
+=> Services
+=> Departments
+=> Consultants
+=> Why Choose Us?
+=> About Us
 
 ### `npm start`
 

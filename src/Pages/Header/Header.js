@@ -3,6 +3,7 @@ import { Container, Nav, Navbar, Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
 import useAuth from "../../hooks/useAuth";
+import "./Header.css";
 
 const Header = () => {
   const { user, logOut } = useAuth();
@@ -17,6 +18,11 @@ const Header = () => {
       >
         <Container>
           <Navbar.Brand as={HashLink} to="/home#home">
+            <img
+              className="logo"
+              alt=""
+              src="https://www.pinclipart.com/picdir/middle/320-3203107_medical-clipart-blue-ems-decals-png-download.png"
+            />{" "}
             Patient Care Hospital
           </Navbar.Brand>
           <Nav className="me-auto">

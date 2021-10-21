@@ -5,7 +5,33 @@ const Booking = () => {
   const { bookId } = useParams();
   return (
     <div>
-      <h1>Service Id: {bookId}</h1>
+      <h1>You have Choosen Service Number {bookId}</h1>
+      <div className="mb-2">
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+      </div>
     </div>
   );
 };
