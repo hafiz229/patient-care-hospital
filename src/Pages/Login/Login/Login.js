@@ -8,6 +8,7 @@ import {
 } from "@firebase/auth";
 import React, { useState } from "react";
 import { Button, Form, Image } from "react-bootstrap";
+import { useHistory, useLocation } from "react-router";
 import useAuth from "../../../hooks/useAuth";
 import initializeAuthentication from "../Firebase/firebase.init";
 
@@ -16,7 +17,21 @@ initializeAuthentication();
 const auth = getAuth();
 
 const Login = () => {
-  const { signInUsingGoogle } = useAuth();
+  const { signInUsingGoogle, setUser } = useAuth();
+
+  const history = useHistory();
+  const location = useLocation();
+
+  const url = location.state?.from || "/home";
+
+  const handleGoogleLogin = () => {
+    signInUsingGoogle()
+      .then((result) => {
+        setUser(result.user);
+        history.push(url);
+      })
+      .catch((err) => console.log(err));
+  };
 
   // state change for name
   const [name, setName] = useState("");
@@ -212,7 +227,7 @@ const Login = () => {
         </Form>
         <p className="fw-bold pt-2">OR</p>
         <Button
-          onClick={signInUsingGoogle}
+          onClick={handleGoogleLogin}
           variant="dark"
           className="py-2 px-5 shadow rounded fw-bold"
         >
