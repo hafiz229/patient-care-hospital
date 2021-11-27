@@ -17,4 +17,4 @@ https://patient-care-hospital-56ccb.firebaseapp.com
 3. Fetch Top Services, Responsive Design
 
 ### Technologies
-Firebase, React.js, React Router, React-Hook, React-Bootstrap, JavaScript, HTML5, CSS3 
+Firebase, React.js, React Router, Context API, React-Bootstrap, JavaScript, HTML5, CSS3 
