@@ -94,6 +94,8 @@ const Login = () => {
     signInWithEmailAndPassword(auth, email, password)
       .then((result) => {
         setError(" ");
+        setUser(result.user);
+        history.push(url);
       })
       .catch((error) => {
         setError(error.message);
@@ -107,6 +109,8 @@ const Login = () => {
         setError(" ");
         verifyEmail();
         setUserName();
+        setUser(result.user);
+        history.push(url);
       })
       .catch((error) => {
         setError(error.message);
