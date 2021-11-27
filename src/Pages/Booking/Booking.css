@@ -1,0 +1,11 @@
+.booking {
+  margin: auto;
+  width: 50%;
+  border-radius: 10px;
+}
+
+.booking img {
+  width: 100%;
+  border-radius: 20px;
+  padding-right: 10px;
+}
