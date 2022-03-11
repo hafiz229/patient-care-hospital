@@ -6,9 +6,6 @@ Patient Care Hospital
 
 Patient Care Hospital is a private hospital in Dhaka, Bangladesh. It is one of three high-end private hospital in Bangladesh.
 
-### Live Site Link
-
-https://patient-care-hospital-56ccb.firebaseapp.com
 
 ### Features and Functionality
 
